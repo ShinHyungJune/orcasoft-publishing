@@ -214,7 +214,7 @@ img { object-fit: cover; }
 
 .footer .footer-wrap {  }
 
-.footer .footer-wrap .footer-flex { display: flex; justify-content: space-between; padding-top: 35px; padding-bottom: 100px; border-top: 1px solid #000; }
+.footer .footer-wrap .footer-flex { display: flex; justify-content: space-between; padding-top: 35px; padding-bottom: 49px; border-top: 1px solid #000; }
 
 .footer .footer-wrap * { color: #000; }
 .footer .footer-wrap .footer-le { padding-right: 20px; }
