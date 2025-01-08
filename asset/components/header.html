@@ -3,15 +3,15 @@
         <div class="header-logo-wrap">
             <a href="/" class="logo"><img src="/asset/images/logo.png" alt=""></a>
         </div>
-        
+
         <div class="header-ri">
             <div class="header-ri-nav">
                 <ul>
                     <li><a href="/about.html">회사소개</a></li>
                     <li><a href="/business1.html">사업소개</a></li>
                     <li><a href="/solution1.html">솔루션</a></li>
-                    <li><a href="">PR센터</a></li>
-                    <li><a href="">문의하기</a></li>
+                    <li><a href="/portfolios.html">PR센터</a></li>
+                    <li><a href="/contactUs.html">문의하기</a></li>
                 </ul>
             </div>
 
@@ -27,40 +27,48 @@
             <div class="site-map-wrap">
                 <h3>회사소개</h3>
                 <ul>
-                    <li><a href="">인사말</a></li>
-                    <li><a href="">연혁</a></li>
-                    <li><a href="">조직도</a></li>
-                    <li><a href="">CI</a></li>
-                    <li><a href="">자격 및 인증</a></li>
-                    <li><a href="">찾아오시는 길</a></li>
+                    <li><a href="/about.html">인사말</a></li>
+                    <li><a href="/history.html">연혁</a></li>
+                    <li><a href="/organization.html">조직도</a></li>
+                    <li><a href="/ci.html">CI</a></li>
+                    <li><a href="/qualifications.html">자격 및 인증</a></li>
+                    <li><a href="/directions.html">찾아오시는 길</a></li>
                 </ul>
             </div>
+            
             <div class="site-map-wrap">
                 <h3>주요사업</h3>
                 <ul>
-                    <li><a href="">IT 솔루션 개발 및 컨설팅</a></li>
-                    <li><a href="">AI & 빅데이터 분석</a></li>
-                    <li><a href="">스마트 기술 융합 사업</a></li>
+                    <li><a href="/business1.html">IT 솔루션 개발 및 컨설팅</a></li>
+                    <li><a href="/business2.html">AI & 빅데이터 분석</a></li>
+                    <li><a href="/business3.html">스마트 기술 융합 사업</a></li>
                 </ul>
             </div>
+            
             <div class="site-map-wrap">
                 <h3>솔루션</h3>
                 <ul>
-                    <li><a href="">Orca Analytics</a></li>
-                    <li><a href="">Orca Cloud ERP</a></li>
-                    <li><a href="">Orca Smart Solutions</a></li>
+                    <li><a href="/solution1.html">Orca Analytics</a></li>
+                    <li><a href="/solution2.html">Orca Cloud ERP</a></li>
+                    <li><a href="/solution3.html">Orca Smart Solutions</a></li>
                 </ul>
             </div>
+            
             <div class="site-map-wrap">
                 <h3>정보광장</h3>
                 <ul>
-                    <li><a href="">공지사항</a></li>
-                    <li><a href="">포트폴리오</a></li>
-                    <li><a href="">보도자료</a></li>
-                    <li><a href="">문의하기</a></li>
+                    <li><a href="/notices.html">공지사항</a></li>
+                    <li><a href="/portfolio.html">포트폴리오</a></li>
+                    <li><a href="/news.html">보도자료</a></li>
+                    <li><a href="/contactUs.html">문의하기</a></li>
                 </ul>
             </div>
         </div>
-        
     </div>
 </div>
+
+<script>
+    document.querySelector(".sitemap-btn").onclick = function () {
+        document.querySelector(".site-map").classList.toggle("open");
+    };
+</script>
